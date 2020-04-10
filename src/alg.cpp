@@ -69,10 +69,3 @@ int countPairs3(int* arr, int len, int value)
 	}
 	return count;
 }
-int main()
-{
-	int arr[] = {2,3,3,4,5,5,6,7,8};
-	cout << countPairs1(arr, 9, 10) << endl;
-	cout << countPairs2(arr, 9, 10) << endl;
-	cout << countPairs3(arr, 9, 10) << endl;
-}
